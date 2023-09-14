@@ -1,0 +1,13 @@
+---
+name: Test code
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: raulpedroche/env-action-test@v1
+      - run: |
+          echo $VARIABLE

@@ -1,0 +1,9 @@
+name: env-action-test
+description: Check if we can modify environment from an action
+
+runs:
+  using: composite
+  steps:
+    - run: |
+        echo VARIABLE=value >> $GITHUB_ENV
+
