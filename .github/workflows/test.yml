@@ -11,3 +11,4 @@ jobs:
       - uses: raulpedroche/env-action-test@v1
       - run: |
           echo $VARIABLE
+        shell: bash

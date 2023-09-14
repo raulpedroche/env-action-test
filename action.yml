@@ -6,4 +6,4 @@ runs:
   steps:
     - run: |
         echo VARIABLE=value >> $GITHUB_ENV
-
+      shell: bash
