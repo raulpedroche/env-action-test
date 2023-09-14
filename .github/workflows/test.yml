@@ -8,7 +8,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: raulpedroche/env-action-test@v1
+      - uses: raulpedroche/env-action-test@v1.1
       - run: |
           echo $VARIABLE
         shell: bash
